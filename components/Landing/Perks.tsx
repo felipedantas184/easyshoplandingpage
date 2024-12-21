@@ -1,9 +1,6 @@
 import styled from "styled-components";
 import { Section } from "./Components";
-import { MdOutlineCardGiftcard } from "react-icons/md";
-import { FaChartColumn, FaCloudscale, FaEnvelopeCircleCheck, FaKey, FaStore } from "react-icons/fa6";
-import { IoIosPeople } from "react-icons/io";
-import { BsCollectionPlay } from "react-icons/bs";
+import { FaChartColumn, FaCloudscale, FaEnvelopeCircleCheck, FaStore } from "react-icons/fa6";
 import { TbTargetArrow } from "react-icons/tb";
 import { LuRefreshCcw } from "react-icons/lu";
 

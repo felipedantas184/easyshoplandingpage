@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { CTAButton, CTWpp, Section } from "./Components";
+import { CTWpp, Section } from "./Components";
 import { FaCheckCircle } from "react-icons/fa";
 
 const Pricing = () => {
