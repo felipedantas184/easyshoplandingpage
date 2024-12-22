@@ -5,6 +5,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { useRouter } from "next/router";
 import styled from "styled-components";
 import Link from "next/link";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 interface Props {
   $isOpen: any
@@ -29,10 +30,12 @@ const Sidebar = ({ isOpen, toggle }: any) => {
             <Item><PageLink target='_blank' href='https://www.instagram.com/easyshop.pi/'><FaFacebook size={20} color="#F6F6F6" />Facebook</PageLink></Item>
             <Item><PageLink target='_blank' href='https://maps.app.goo.gl/jPSt5QCpzHwX4ECd6'><IoLocationOutline size={20} color="#F6F6F6" />Localização</PageLink></Item>
             <Item><PageLink target='_blank' href='mailto:easyshop.piaui@gmail.com'><FaRegEnvelope size={20} color="#F6F6F6" />Email</PageLink></Item>
+            <Item><PageLink target='_blank' href='https://easyphone.vercel.app/'><MdOutlineArrowOutward size={20} color="#F6F6F6" />Demo Easy Phone</PageLink></Item>
+            <Item><PageLink target='_blank' href='https://easyphone.vercel.app/'><MdOutlineArrowOutward size={20} color="#F6F6F6" />Demo Easy Joias</PageLink></Item>
           </Menu>
         </BigWrapper>
         <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 300, width: '100%', justifyContent: 'center', alignItems: 'center' }} >
-          <LogoutButton href="https://wa.me/+5586995185757?text=Ol%C3%A1!%20Fiquei%20interessado%20no%20*Plano%20Personalizado*%20da%20Easy%20Shop!" >Entrar em Contato</LogoutButton>
+          <LogoutButton href="https://wa.me/+5586995185757?text=Ol%C3%A1!%20Fiquei%20interessado%20no%20*Plano%20Personalizado*%20da%20Easy%20Shop!" ><FaWhatsapp /> Entrar em Contato</LogoutButton>
         </div>
       </Wrapper>
     </Container>
