@@ -18,7 +18,7 @@ const Sidebar = ({ isOpen, toggle }: any) => {
       <Wrapper>
         <BigWrapper>
           <TitleWrapper>
-            <Logo href={'/'} ><Image src={'/assets/images/img/EasyShopLogoTransparent.png'} alt='Easy Phone Logo' fill /></Logo>
+            <Logo href={'/'} ><Image src={'/assets/images/img/EasyShopLogoTransparent.png'} alt='Easy Shop Logo' fill sizes="(max-width: 150px)" /></Logo>
             <Close onClick={toggle}>
               <FaTimes color="#F6F6F6" />
             </Close>

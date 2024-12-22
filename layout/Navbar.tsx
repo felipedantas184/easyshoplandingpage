@@ -8,7 +8,7 @@ const Navbar = ({toggle} : any) => {
   return ( 
     <Container>
       <Wrapper>
-        <Logo href={'/'} ><Image src={'/assets/images/img/EasyShopLogoTransparent.png'} alt='Easy Phone Logo' fill /></Logo>
+        <Logo href={'/'} ><Image src={'/assets/images/img/EasyShopLogoTransparent.png'} alt='Easy Shop Logo' fill sizes="(max-width: 100px)" /></Logo>
         <FaBars style={{cursor: "pointer"}} color="#F6F6F6" size={24} onClick={toggle} />
       </Wrapper>
     </Container>

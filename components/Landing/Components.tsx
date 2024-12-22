@@ -2,12 +2,12 @@ import styled from "styled-components"
 import { Link as LinkS } from 'react-scroll'
 
 interface Props {
-  dark?: boolean,
-  invert?: boolean
+  $dark?: boolean,
+  $invert?: boolean
 }
 
 export const Section = styled.section<Props>`
-  background-color: ${({ dark }) => (dark ? '#340333' : '#F6F6F6')};
+  background-color: ${({ $dark }) => ($dark ? '#340333' : '#F6F6F6')};
   padding: 25px 0;
   margin-left: auto;
   margin-right: auto;
@@ -19,11 +19,11 @@ export const Section = styled.section<Props>`
   align-items: center;
 
   h1, span {
-    color: ${({ dark }) => (dark ? '#F6F6F6' : '#13131A')};
+    color: ${({ $dark }) => ($dark ? '#F6F6F6' : '#13131A')};
   }
   button, .scroll {
-    background-color: ${({ dark }) => (dark ? '#F6F6F6' : '#340333')};
-    color: ${({ dark }) => (dark ? '#13131A' : '#F6F6F6')};
+    background-color: ${({ $dark }) => ($dark ? '#F6F6F6' : '#340333')};
+    color: ${({ $dark }) => ($dark ? '#13131A' : '#F6F6F6')};
 
     &:hover {
       background-color:#13131A;
@@ -39,7 +39,7 @@ export const Wrapper = styled.div<Props>`
 	margin-right: auto;
 
 	display: flex;
-	flex-direction: ${({ invert }) => (invert ? 'row-reverse' : 'row')};;
+	flex-direction: ${({ $invert }) => ($invert ? 'row-reverse' : 'row')};;
 	align-items: center;
 	justify-content: space-between;
   gap: 8px;
@@ -256,7 +256,7 @@ export const CTAScroll = styled(LinkS)`
     background-color: #545454;
   }
 `
-export const CTWpp = styled.a<{ highlight?: boolean }>`
+export const CTWpp = styled.a<{ $highlight?: boolean; }>`
   margin-top: 24px;
   padding: 8px 12px;
 
@@ -288,13 +288,13 @@ export const CTWpp = styled.a<{ highlight?: boolean }>`
   vertical-align: baseline;
   -webkit-tap-highlight-color: transparent;
 
-  background-color: ${({ highlight }) => (highlight ? '#E6E6E6' : '#340333')};
-  color: ${({ highlight }) => (highlight ? '#340333' : '#E6E6E6')};
+  background-color: ${props => props.$highlight ? '#E6E6E6' : '#340333'};
+  color: ${props => props.$highlight ? '#340333' : '#E6E6E6'};
   align-self: center;
 
   &:hover {
-    background-color: ${({ highlight }) => (highlight ? '#000' : '#13131A')};
-    color: ${({ highlight }) => (highlight ? '#E6E6E6' : '#FFF')};
+    background-color: ${props => props.$highlight ? '#000000' : '#13131A'};
+    color: ${props => props.$highlight ? '#E6E6E6' : '#FFF'};
   }
 
   &:hover, &:focus {

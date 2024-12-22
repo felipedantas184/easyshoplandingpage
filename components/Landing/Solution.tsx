@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { CTAScroll, FHalf, ImgWrapper, PerkDescription, PerksWrapper, PerkTitle, PerkWrapper, Section, SHalf, Subtitle, TextWrapper, Title, Wrapper } from "./Components";
-import { FaMoneyBillTrendUp } from "react-icons/fa6";
+import { FaBoxesPacking, FaMoneyBillTrendUp } from "react-icons/fa6";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 const Solution = () => {
@@ -19,16 +19,16 @@ const Solution = () => {
               <PerkDescription>Aumente o número de vendas com uma loja profissional!</PerkDescription>
             </PerkWrapper>
             <PerkWrapper>
-              <FaMoneyBillTrendUp size={24} color="#411551" />
+              <FaBoxesPacking size={24} color="#411551" />
               <PerkTitle>Maior Controle do Negócio</PerkTitle>
-              <PerkDescription>Aumente o número de vendas com uma loja profissional!</PerkDescription>
+              <PerkDescription>Organize seus pedidos e melhore o fluxo da sua loja!</PerkDescription>
             </PerkWrapper>
           </PerksWrapper>
           <CTAScroll className="scroll" to="pricing" spy={true} smooth={true} hashSpy={true} offset={50} duration={1000} delay={500} isDynamic={true} ignoreCancelEvents={false} spyThrottle={500}>Conhecer Planos <IoArrowForwardCircleOutline size={24} /></CTAScroll>
         </FHalf>
         <SHalf>
           <ImgWrapper>
-            <Image src={'/assets/images/img/solution.png'} alt='Easy Phone Logo' fill sizes="(max-width: 384px)" className={'image'} />
+            <Image src={'/assets/images/img/solution.png'} alt='Soluções que Transformam Negócios com a Easy Shop' fill sizes="(max-width: 384px)" className={'image'} />
           </ImgWrapper>
         </SHalf>
       </Wrapper>

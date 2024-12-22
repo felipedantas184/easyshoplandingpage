@@ -3,7 +3,7 @@ import { CTAScroll, FHalf, ImgWrapper, Section, SHalf, Subtitle, TextWrapper, Ti
 
 const Hero = () => {
   return ( 
-    <Section dark>
+    <Section $dark>
       <Wrapper>
         <FHalf>
           <TextWrapper>
@@ -14,7 +14,7 @@ const Hero = () => {
         </FHalf>
         <SHalf>
           <ImgWrapper>
-            <Image src={'/assets/images/img/hero.png'} alt='Easy Phone Logo' fill sizes="(max-width: 384px)" className={'image'}  />
+            <Image priority src={'/assets/images/img/hero.png'} alt='transforme Seu Negócio em uma Loja Virtual com a Easy Shop' fill sizes="(max-width: 384px)" className={'image'}  />
           </ImgWrapper>
         </SHalf>
       </Wrapper>

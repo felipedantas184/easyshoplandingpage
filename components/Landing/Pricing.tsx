@@ -18,7 +18,7 @@ const Pricing = () => {
             </Features>
             <CTWpp href="https://wa.me/+5586995185757?text=Ol%C3%A1!%20Fiquei%20interessado%20no%20*Plano%20Memsal*%20da%20Easy%20Shop!" target="_blank">Escolher Mensal</CTWpp>
           </Card>
-          <Card highlight>
+          <Card $highlight>
             <DiscountGroup>
               <PlanTitle>Plano Anual</PlanTitle>
               <Discount>Economize 2 meses!</Discount>
@@ -30,7 +30,7 @@ const Pricing = () => {
               <li><FaCheckCircle />Automação de comunicação</li>
               <li><FaCheckCircle />Suporte prioritário</li>
             </Features>
-            <CTWpp highlight href="https://wa.me/+5586995185757?text=Ol%C3%A1!%20Fiquei%20interessado%20no%20*Plano%20Anual*%20da%20Easy%20Shop!" target="_blank">Escolher Anual</CTWpp>
+            <CTWpp $highlight href="https://wa.me/+5586995185757?text=Ol%C3%A1!%20Fiquei%20interessado%20no%20*Plano%20Anual*%20da%20Easy%20Shop!" target="_blank">Escolher Anual</CTWpp>
           </Card>
           <Card>
             <PlanTitle>Personalizado</PlanTitle>
@@ -91,9 +91,9 @@ const DiscountGroup = styled.div`
   align-items: center;
 `;
 
-const Card = styled.div<{ highlight?: boolean }>`
-  background-color: ${({ highlight }) => (highlight ? '#340333' : '#FFF')};
-  border: ${({ highlight }) => (highlight ? '2px solid #340333' : '1px solid #ddd')};
+const Card = styled.div<{ $highlight?: boolean }>`
+  background-color: ${({ $highlight }) => ($highlight ? '#340333' : '#FFF')};
+  border: ${({ $highlight }) => ($highlight ? '2px solid #340333' : '1px solid #ddd')};
   border-radius: 10px;
   padding: 16px;
   flex: 1;
@@ -106,18 +106,18 @@ const Card = styled.div<{ highlight?: boolean }>`
   gap: 32px;
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  transform: scale(${({ highlight }) => (highlight ? 1.1 : 1.0)});
+  transform: scale(${({ $highlight }) => ($highlight ? 1.1 : 1.0)});
 
   h2, p {
-    color: ${({ highlight }) => (highlight ? '#FFF' : '#3A3A3AS')};
+    color: ${({ $highlight }) => ($highlight ? '#FFF' : '#3A3A3AS')};
   }
   li {
-    color: ${({ highlight }) => (highlight ? '#E6E6E6' : '#3A3A3AS')};
+    color: ${({ $highlight }) => ($highlight ? '#E6E6E6' : '#3A3A3AS')};
   }
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    transform: scale(${({ highlight }) => (highlight ? 1.0 : 1.0)});
+    transform: scale(${({ $highlight }) => ($highlight ? 1.0 : 1.0)});
   }
 `;
 

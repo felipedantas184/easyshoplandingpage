@@ -7,7 +7,7 @@ const Footer = () => {
     <Container>
       <Wrapper>
         <LogoWrapper>
-          <Image src={'/assets/images/img/EasyShopLogoTransparent.png'} alt={'Logo'} fill className={'image'} />
+          <Image src={'/assets/images/img/EasyShopLogoTransparent.png'} alt={'Logo'} fill sizes="(max-width: 200px)" className={'image'} />
         </LogoWrapper>
         <Grid>
           <TextWrapper>

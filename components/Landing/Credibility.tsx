@@ -4,7 +4,7 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 
 const Credibility = () => {
   return (
-    <Section dark>
+    <Section $dark>
       <Wrapper>
         <FHalf>
           <TextWrapper>
@@ -15,7 +15,7 @@ const Credibility = () => {
         </FHalf>
         <SHalf>
           <ImgWrapper>
-            <Image src={'/assets/images/img/automatize.png'} alt='Easy Phone Logo' fill sizes="(max-width: 384px)" className={'image'} />
+            <Image src={'/assets/images/img/automatize.png'} alt='Credibilidade para sua loja com a Easy Shop' fill sizes="(max-width: 384px)" className={'image'} />
           </ImgWrapper>
         </SHalf>
       </Wrapper>

@@ -6,7 +6,7 @@ import { IoArrowForwardCircleOutline } from "react-icons/io5";
 const Automatize = () => {
   return (
     <Section>
-      <Wrapper invert>
+      <Wrapper $invert>
         <FHalf>
           <TextWrapper>
             <Title>Automatize Suas Vendas</Title>
@@ -28,7 +28,7 @@ const Automatize = () => {
         </FHalf>
         <SHalf>
           <ImgWrapper>
-            <Image src={'/assets/images/img/automatize.png'} alt='Easy Phone Logo' fill sizes="(max-width: 384px)" className={'image'} />
+            <Image src={'/assets/images/img/automatize.png'} alt='Automatize suas vendas com a Easy Shop' fill sizes="(max-width: 384px)" className={'image'} />
           </ImgWrapper>
         </SHalf>
       </Wrapper>
