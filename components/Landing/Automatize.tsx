@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { CTAScroll, FHalf, ImgWrapper, PerkDescription, PerksWrapper, PerkTitle, PerkWrapper, Section, SHalf, Subtitle, TextWrapper, Title, Wrapper } from "./Components";
-import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
+import { MdOutlineMarkEmailRead } from "react-icons/md";
+import { FaSync } from "react-icons/fa";
 
 const Automatize = () => {
   return (
@@ -14,12 +15,12 @@ const Automatize = () => {
           </TextWrapper>
           <PerksWrapper>
             <PerkWrapper>
-              <FaMoneyBillTrendUp size={24} color="#411551" />
+              <MdOutlineMarkEmailRead size={24} color="#411551" />
               <PerkTitle>E-mails Automáticos</PerkTitle>
-              <PerkDescription>Envie e-mails automáticos de compra para seu cliente!</PerkDescription>
+              <PerkDescription>Envie e-mails automáticos para seu cliente!</PerkDescription>
             </PerkWrapper>
             <PerkWrapper>
-              <FaMoneyBillTrendUp size={24} color="#411551" />
+              <FaSync size={24} color="#411551" />
               <PerkTitle>Controle seu Estoque</PerkTitle>
               <PerkDescription>Gerencie e consulte seu estoque de onde estiver!</PerkDescription>
             </PerkWrapper>
