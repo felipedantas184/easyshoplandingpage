@@ -17,12 +17,12 @@ export default function StorePage() {
 
         <meta property="og:title" content="Easy Shop | Transforme Seu Negócio em uma Loja Virtual" />
         <meta property="og:description" content="Simples, rápido e eficiente. Crie sua loja online e conquiste mais clientes!" />
-        <meta property="og:image" content="/assets/images/logo/apple-touch-icon.png" />
+        <meta property="og:image" content="https://easyshopbrasil.vercel.app/assets/images/logo/apple-touch-icon.png" />
         <meta property="og:site_name" content="Easy Shop | Transforme Seu Negócio em uma Loja Virtual" />
 
         <meta property="twitter:title" content="Easy Shop | Transforme Seu Negócio em uma Loja Virtual" />
         <meta property="twitter:description" content="Simples, rápido e eficiente. Crie sua loja online e conquiste mais clientes!" />
-        <meta property="twitter:image" content="/assets/images/logo/apple-touch-icon.png" />
+        <meta property="twitter:image" content="https://easyshopbrasil.vercel.app/assets/images/logo/apple-touch-icon.png" />
       </Head>
 
       <Layout>
