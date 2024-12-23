@@ -43,7 +43,7 @@ export default class MyDocument extends Document {
           <meta name="apple-mobile-web-app-title" content="Easy Phone" />
           <link rel="manifest" href="/assets/images/logo/site.webmanifest" />
 
-          <meta name="theme-color" content="#340333" />
+          <meta name="theme-color" content="#130028" />
           <meta name="google-site-verification" content="CsqYewy3QltK0Z6AxOJW6bgPsLVfHUj3BNXFKl43V-Q" />        </Head>
         <body>
           <Main />

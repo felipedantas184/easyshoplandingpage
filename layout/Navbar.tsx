@@ -20,11 +20,15 @@ export default Navbar;
 
 
 const Container = styled.header`
-  background-color: #340333;
+  background: rgb(19,0,40);
   height: 60px;
 
   display: flex;
   align-items: center;
+
+  @media screen and (min-width: 768px) {
+    background: transparent;
+  }
 `
 const Wrapper = styled.div`
   width: 100%;

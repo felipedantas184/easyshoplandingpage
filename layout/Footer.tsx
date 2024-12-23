@@ -13,11 +13,11 @@ const Footer = () => {
           <TextWrapper>
             <Group>
               <FaTruck size={16} color="#F6F6F6" />
-              <Title>Entrega</Title>
+              <Title>Lojas Demo</Title>
             </Group>
             <List>
-              <ListItem>Retirada na Loja</ListItem>
-              <ListItem>Entrega a Domicílio</ListItem>
+              <ListItem><a target='_blank' href='https://easyphone.vercel.app/'>Easy Phone (Demo)</a></ListItem>
+              <ListItem><a target='_blank' href='https://easyjoias.vercel.app/'>Easy Joias (Demo)</a></ListItem>
             </List>
           </TextWrapper>
           <TextWrapper>

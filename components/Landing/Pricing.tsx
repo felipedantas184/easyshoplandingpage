@@ -36,7 +36,7 @@ const Pricing = () => {
             <PlanTitle>Personalizado</PlanTitle>
             <Price>R$ xxx/mês</Price>
             <Features>
-              <li><FaCheckCircle />Adequa às suas necessidades</li>
+              <li><FaCheckCircle />Adequado às suas necessidades</li>
               <li><FaCheckCircle />Gestão de pedidos e estoques</li>
               <li><FaCheckCircle />Relatórios simplificados</li>
               <li><FaCheckCircle />Automação de comunicação</li>
@@ -92,9 +92,10 @@ const DiscountGroup = styled.div`
 `;
 
 const Card = styled.div<{ $highlight?: boolean }>`
-  background-color: ${({ $highlight }) => ($highlight ? '#340333' : '#FFF')};
-  border: ${({ $highlight }) => ($highlight ? '2px solid #340333' : '1px solid #ddd')};
+  background: ${({ $highlight }) => ($highlight ? 'linear-gradient(315deg, rgba(89,45,144,1) 0%, rgba(19,0,40,1) 40%)' : '#FFF')};
+  border: ${({ $highlight }) => ($highlight ? '2px solid #592d90' : '1px solid #ddd')};
   border-radius: 10px;
+
   padding: 16px;
   flex: 1;
   min-height: 375px;
@@ -134,7 +135,7 @@ const Price = styled.p`
 `;
 
 const Discount = styled.span`
-  color: #ff5733 !important;
+  color: #ab7ae7 !important;
   font-size: 16px;
   font-weight: 500;
 `;

@@ -7,7 +7,8 @@ interface Props {
 }
 
 export const Section = styled.section<Props>`
-  background-color: ${({ $dark }) => ($dark ? '#340333' : '#F6F6F6')};
+  background: rgb(19,0,40);
+  background: ${({ $dark }) => ($dark ? 'linear-gradient(315deg, rgba(89,45,144,1) 0%, rgba(19,0,40,1) 50%)' : '#F6F6F6')};
   padding: 25px 0;
   margin-left: auto;
   margin-right: auto;
@@ -22,13 +23,18 @@ export const Section = styled.section<Props>`
     color: ${({ $dark }) => ($dark ? '#F6F6F6' : '#13131A')};
   }
   button, .scroll {
-    background-color: ${({ $dark }) => ($dark ? '#F6F6F6' : '#340333')};
+    background-color: ${({ $dark }) => ($dark ? '#F6F6F6' : '#130028')};
     color: ${({ $dark }) => ($dark ? '#13131A' : '#F6F6F6')};
 
     &:hover {
       background-color:#13131A;
       color: #F6F6F6;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 85px 0;
+    margin-top: -60px;
   }
 `
 export const Wrapper = styled.div<Props>`
@@ -195,7 +201,7 @@ export const CTAButton = styled.button`
   }
 
   &:active {
-    background-color: #340333;
+    background-color: #130028;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }
@@ -247,7 +253,7 @@ export const CTAScroll = styled(LinkS)`
   }
 
   &:active {
-    background-color: #340333;
+    background-color: #130028;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }
@@ -258,7 +264,7 @@ export const CTAScroll = styled(LinkS)`
 `
 export const CTWpp = styled.a<{ $highlight?: boolean; }>`
   margin-top: 24px;
-  padding: 8px 12px;
+  padding: 12px 18px;
 
   background-clip: padding-box;
 
@@ -288,8 +294,8 @@ export const CTWpp = styled.a<{ $highlight?: boolean; }>`
   vertical-align: baseline;
   -webkit-tap-highlight-color: transparent;
 
-  background-color: ${props => props.$highlight ? '#E6E6E6' : '#340333'};
-  color: ${props => props.$highlight ? '#340333' : '#E6E6E6'};
+  background-color: ${props => props.$highlight ? '#E6E6E6' : '#130028'};
+  color: ${props => props.$highlight ? '#130028' : '#E6E6E6'};
   align-self: center;
 
   &:hover {
@@ -306,7 +312,7 @@ export const CTWpp = styled.a<{ $highlight?: boolean; }>`
   }
 
   &:active {
-    background-color: #340333;
+    background-color: #130028;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }
