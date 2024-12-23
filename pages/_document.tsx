@@ -44,8 +44,7 @@ export default class MyDocument extends Document {
           <link rel="manifest" href="/assets/images/logo/site.webmanifest" />
 
           <meta name="theme-color" content="#340333" />
-          <meta name="google-site-verification" content="sRr7PwTEAKYZLl6OYIB32fnrTmW6Sm4sJAMUdSb0rSE" />
-        </Head>
+          <meta name="google-site-verification" content="CsqYewy3QltK0Z6AxOJW6bgPsLVfHUj3BNXFKl43V-Q" />        </Head>
         <body>
           <Main />
           <NextScript />
