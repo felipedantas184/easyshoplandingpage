@@ -31,7 +31,7 @@ const Sidebar = ({ isOpen, toggle }: any) => {
             <Item><PageLink target='_blank' href='https://maps.app.goo.gl/jPSt5QCpzHwX4ECd6'><IoLocationOutline size={20} color="#F6F6F6" />Localização</PageLink></Item>
             <Item><PageLink target='_blank' href='mailto:easyshop.piaui@gmail.com'><FaRegEnvelope size={20} color="#F6F6F6" />Email</PageLink></Item>
             <Item><PageLink target='_blank' href='https://easyphone.vercel.app/'><MdOutlineArrowOutward size={20} color="#F6F6F6" />Demo Easy Phone</PageLink></Item>
-            <Item><PageLink target='_blank' href='https://easyphone.vercel.app/'><MdOutlineArrowOutward size={20} color="#F6F6F6" />Demo Easy Joias</PageLink></Item>
+            <Item><PageLink target='_blank' href='https://easyjoias.vercel.app/'><MdOutlineArrowOutward size={20} color="#F6F6F6" />Demo Easy Joias</PageLink></Item>
           </Menu>
         </BigWrapper>
         <div style={{ display: 'flex', flexDirection: 'column', maxWidth: 300, width: '100%', justifyContent: 'center', alignItems: 'center' }} >
