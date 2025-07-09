@@ -10,7 +10,7 @@ const Pricing = () => {
         <CardsContainer>
           <Card>
             <PlanTitle>Plano Mensal</PlanTitle>
-            <Price>R$ 149,90/mês</Price>
+            <Price>R$ 419,90/mês</Price>
             <Features>
               <li><FaCheckCircle /> Gestão de pedidos e estoques</li>
               <li><FaCheckCircle />Relatórios simplificados</li>
@@ -23,7 +23,7 @@ const Pricing = () => {
               <PlanTitle>Plano Anual</PlanTitle>
               <Discount>Economize 2 meses!</Discount>
             </DiscountGroup>
-            <Price>R$ 119,90/mês</Price>
+            <Price>R$ 349,90/mês</Price>
             <Features>
               <li><FaCheckCircle />Gestão de pedidos e estoques</li>
               <li><FaCheckCircle />Relatórios simplificados</li>
